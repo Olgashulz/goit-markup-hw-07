@@ -75,7 +75,6 @@ img {
   color: var(--colorOn-darkВackground);
 }
 
-
 /* ============== END LOGO ============== */
 
 /* ============== HEADER ============== */
@@ -98,7 +97,7 @@ img {
   display: flex;
   align-items: center;
 
-      margin-left: 93px;
+  margin-left: 93px;
 }
 
 .navigation__item {
@@ -195,7 +194,7 @@ img {
 /* ============== END HEADER ============== */
 
 /* ============== HERO ============== */
-.section--central {
+.section--general {
   height: 600px;
   max-width: 1600px;
   padding-top: 200px;
@@ -215,11 +214,11 @@ img {
   /* outline: 1px solid red; */
 }
 
-.container--central {
+.container--general {
   padding-top: 0;
 }
 
-.hero__title {
+.section__title--general {
   max-width: 696px;
   margin: 0 auto;
   margin-bottom: 30px;
@@ -294,7 +293,6 @@ img {
   padding-bottom: var(--indent);
 }
 
-
 .whatWeDo__list :not(:last-child) {
   margin-right: 30px;
 }
@@ -325,7 +323,6 @@ img {
 /* ============== OUR TEAM ============== */
 .section--grey {
   background: #f5f4fa;
-  /* outline: 1px solid red;   */
 }
 
 .section--grey .container {
@@ -372,7 +369,6 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
 }
-
 
 /* ============== END OUR TEAM ============== */
 
@@ -446,7 +442,6 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
-
 .contacts__link--darkВackground {
   color: var(--colorOn-darkВackground);
 }
@@ -474,7 +469,7 @@ img {
   margin-bottom: 20px;
 }
 
-.contacts__link:hover{
+.contacts__link:hover {
   color: var(--colorOn-darkВackground);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -531,27 +526,27 @@ img {
   flex-wrap: wrap;
 }
 
-.ourWorks-card {
+.ourWorks__card {
   flex-basis: calc((100% - 60px) / 3);
   margin-top: 30px;
   margin-left: 30px;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.ourWorks-card:hover {
+.ourWorks__card:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.ourWorks__cards .ourWorks-card:nth-child(3n + 1) {
+.ourWorks__cards .ourWorks__card:nth-child(3n + 1) {
   margin-left: 0;
 }
 
-.ourWorks-card:nth-child(-n + 3) {
+.ourWorks__card:nth-child(-n + 3) {
   margin-top: 0;
 }
 
-.ourWorks-card list .link {
+.ourWorks__card list .link {
   display: block;
 }
 .card__img {
@@ -714,7 +709,6 @@ img {
 }
 
 /* ============== END SOCIAL ============== */
-
 
 /* ============== FORM ============== */
 .subscription {
@@ -909,7 +903,6 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
-  
 
   font-family: var(--main-font);
   font-size: 12px;
@@ -931,18 +924,11 @@ img {
   cursor: pointer;
 }
 
-/* .polisy-svg {
-  width: 18px;
-  height: 18px;
-  margin-right: 8px;
-} */
-
 .policy__text {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
-  
 }
 
 .policy__agreement {
@@ -965,7 +951,6 @@ img {
   height: 1px !important;
   width: 1px !important;
   overflow: hidden;
-
 }
 
 .policy__icon {
@@ -973,7 +958,7 @@ img {
   display: inline-block;
   width: 15px;
   height: 15px;
-  
+
   background-color: #fff;
   border: 2px solid #212121;
   border-radius: 4px;
@@ -989,7 +974,6 @@ img {
   background-image: url(../images/icons/check.svg);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 .button--modal {
   margin-top: 30px;
@@ -1024,9 +1008,6 @@ img {
   fill: var(--accent-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
-
 /* ============== END MODAL ============== */
 
 /* ============== END COMPONENTS ============== */
