@@ -1,0 +1,16 @@
+.logo {
+    font-family: var(--logo-font);
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+  }
+  
+  .logo__part--whiteВackground {
+    color: #000;
+  }
+  
+  .logo__part--darkВackground {
+    color: var(--colorOn-darkВackground);
+  }
