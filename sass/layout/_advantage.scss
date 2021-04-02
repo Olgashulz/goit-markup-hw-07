@@ -1,4 +1,6 @@
-.advantage__list {
+.advantage {
+  
+  &__list {
     display: flex;
 
     & :not(:last-child) {
@@ -6,11 +8,11 @@
     }
   }
   
-  .advantage__item {
+  &__item {
     flex-basis: calc((100% - 90px) / 4);
   }
   
-  .advantage__container {
+  &__container {
     width: 100%;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -18,12 +20,12 @@
     background-color: #f5f4fa;
   }
   
-  .advantage__svg {
+  &__svg {
     margin: auto;
     display: block;
   }
   
-  .advantage__title {
+  &__title {
     margin-bottom: 10px;
     font-size: 14px;
     line-height: 1.14;
@@ -32,10 +34,11 @@
     color: var(--title-color);
   }
   
-  .advantage__description {
+  &__description {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--text-color);
     text-align: justify;
   }
+}

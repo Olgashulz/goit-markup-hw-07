@@ -78,7 +78,7 @@ img {
 /* ============== END LOGO ============== */
 
 /* ============== HEADER ============== */
-.header .container {
+.pageHeader .container {
   display: flex;
   align-items: center;
   padding-top: 0;

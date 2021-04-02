@@ -5,12 +5,14 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-color);
-  }
   
-  .logo__part--whiteВackground {
-    color: #000;
+  &__part{
+    &--them-light{
+      color: #000;
+    }
+
+    &--them-dark{
+      color: var(--colorOn-darkВackground);
+    }
   }
-  
-  .logo__part--darkВackground {
-    color: var(--colorOn-darkВackground);
-  }
+}
