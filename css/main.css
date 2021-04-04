@@ -93,6 +93,7 @@ img {
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
+  letter-spacing: 0.06em;
   color: var(--colorOn-darkВackground);
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -611,6 +612,7 @@ img {
   padding-bottom: 25px;
   margin-bottom: 30px;
   background-color: #f5f4fa;
+  border-radius: 4px;
 }
 
 .advantage__svg {
@@ -785,6 +787,10 @@ img {
 
 .footer__contacts {
   margin-right: 70px;
+}
+
+.contacts__item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .contacts__link {

@@ -25,6 +25,10 @@
   margin-right: 70px;
 }
 
+.contacts__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .contacts__link {
   font-size: 14px;
   line-height: 1.7;
